@@ -1,0 +1,25 @@
+Sub Worksheet_SelectionChange(ByVal Target As Excel.Range)
+'Update 20140318
+Static xRow
+Static xColumn
+If xColumn <> "" Then
+    With Columns(xColumn).Interior
+        .ColorIndex = xlNone
+    End With
+    With Rows(xRow).Interior
+        .ColorIndex = xlNone
+    End With
+End If
+pRow = Selection.Row
+pColumn = Selection.Column
+xRow = pRow
+xColumn = pColumn
+With Columns(pColumn).Interior
+    .ColorIndex = 19
+    .Pattern = xlSolid
+End With
+With Rows(pRow).Interior
+    .ColorIndex = 19
+    .Pattern = xlSolid
+End With
+End Sub
