@@ -1,39 +1,42 @@
-Project name    	SECU
-Description 		Conduct test design for sensor ecu (compliance ISO26262-B).
-					Create Test case for function of safety follow detail design Achieve C1 = 100%.
-					Report bug and confirm detail design. 
-Domain 				Automotive
-Technology			Automation test
-Activity involved	Requirement Analysis
-					Unit testing
-					Debugging
-					Develop tool to automative test
-Language 			C/C++ embedded, VBA
-Environment 		WinAMS, Cunit
-Platform			Linux OS
-
-Project name 		Automotive communication analyzing tool 
-Description 		Analyzing tool is developed with intention provide a lot of function about analyze CAN messages ,listen all message on CAN bus and attack ECU
-Domain 				Automotive
-Technology			CAN, Http
-Activity involved	Implementation
-					Unit testing
-Language 			C#.
-Environment 		Window
-Platform			.Net
-
-Project name 		Interupt in RTOS
-Description 		implement interupt processing in RTOS
-Activity involved	Implementation interupt in renesas RSKRX630
-Language 			C/C++
-Environment 		Window
-Platform			CubeSuite+
+Project name(プロジェクト名) 			SECU
+Description (説明)				Conduct test design for sensor ecu (compliance ISO26262-B).(センサECU（コンプライアンスISO26262-B）のテスト設計を実施)
+								Create Test case for function of safety follow detail design Achieve C1 = 100%.(安全機能のテストケースを作成詳細設計に従うC1 = 100％を達成する。)
+								Report bug and confirm detail design.(バグを報告し、詳細設計を確認してください。)
+ドメイン 							Automotive
+Technology	(技術)				テスト自動化
+Activity involved(関連する活動)	Requirements Analysis(要求分析)
+								Unit testing(単体テスト)
+								デバッグ（debug）
+								Develop tool to automate test(テストを自動化するツールを開発する)
+言語 							C/C++ embedded, VBA
+環境			 					WinAMS, Cunit
+プラットフォーム						Linux OS
+			
+Project name(プロジェクト名) 			Automotive communication analyzing tool (自動車通信解析ツール)
+Description (説明)				Analyzing tool is developed with intention provide a lot of function about analyze CAN messages(分析ツールはCANメッセージを分析するについて多くの機能を提供する意図で開発されています)
+								listen all message on CAN bus and attack ECU(CANバス上のすべてのメッセージを聴き、ECUを攻撃する)
+ドメイン 							Automotive
+Technology	(技術)				CAN, Http
+Activity involved(関連する活動)	Implementation (実装する  - 実装 ?????)
+								Unit testing (単体テスト)
+言語 							C#.
+環境 							Window
+プラットフォーム						.Net
+			
+Project name(プロジェクト名)			Embedded RTOS Project 
+ドメイン 							Automotive
+Description (説明)				Embedded RTOS development(組み込みRTOS開発)
+Activity involved(関連する活動)	Implementation interrupt  in renesas RSKRX630 (ルネサスの実装割り込みRSKRX 630)
+言語		 						C/C++
+環境			 					Window
+プラットフォーム						CubeSuite+
 
 SKILLS
-Programming languages		C/C++, C#, VBA
-Tools						Visual studio, CS++, eclipse, Matlab.	
-Operating systems 			Windows, Linux, FreeRTOS
-Communication protocol		UART
+マイクロコントローラ						Renesas, PIC, ST
+プログラミング言語						C/C++, C#, VBA
+ツール 							Visual studio, CS++, eclipse, Matlab.	
+オペレーティング システム 				Windows, Linux, FreeRTOS
+通信プロトコル						UART, RS232
 
 
 
