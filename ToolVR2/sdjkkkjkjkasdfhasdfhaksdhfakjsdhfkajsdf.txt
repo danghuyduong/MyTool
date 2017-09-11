@@ -1,0 +1,41 @@
+Project name    	SECU
+Description 		Conduct test design for sensor ecu (compliance ISO26262-B).
+					Create Test case for function of safety follow detail design Achieve C1 = 100%.
+					Report bug and confirm detail design. 
+Domain 				Automotive
+Technology			Automation test
+Activity involved	Requirement Analysis
+					Unit testing
+					Debugging
+					Develop tool to automative test
+Language 			C/C++ embedded, VBA
+Environment 		WinAMS, Cunit
+Platform			Linux OS
+
+Project name 		Automotive communication analyzing tool 
+Description 		Analyzing tool is developed with intention provide a lot of function about analyze CAN messages ,listen all message on CAN bus and attack ECU
+Domain 				Automotive
+Technology			CAN, Http
+Activity involved	Implementation
+					Unit testing
+Language 			C#.
+Environment 		Window
+Platform			.Net
+
+Project name 		Interupt in RTOS
+Description 		implement interupt processing in RTOS
+Activity involved	Implementation interupt in renesas RSKRX630
+Language 			C/C++
+Environment 		Window
+Platform			CubeSuite+
+
+SKILLS
+Programming languages		C/C++, C#, VBA
+Tools						Visual studio, CS++, eclipse, Matlab.	
+Operating systems 			Windows, Linux, FreeRTOS
+Communication protocol		UART
+
+
+
+
+
