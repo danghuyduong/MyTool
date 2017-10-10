@@ -1,0 +1,10 @@
+http://liu.diva-portal.org/smash/get/diva2:822343/FULLTEXT01.pdf
+https://www.embitel.com/blog/embedded-blog/what-is-autosar-communication-stack-comstack
+https://en.wikipedia.org/wiki/CAN_bus
+http://read.pudn.com/downloads102/doc/416714/SW_Architecture-Communication_Stack/01Communication_Stack/00Standard-Specifications/AUTOSAR_SWS_CAN_Interface.pdf
+https://automotivetechis.wordpress.com/autosar-concepts/
+https://automotivetechis.wordpress.com/automotive-interview-questions/
+http://www.eeherald.com/section/design-guide/esmod9.html
+https://www.can-cia.org/can-knowledge/can/systemdesign-can-physicallayer/
+https://www.can-cia.org/can-knowledge/can/can-data-link-layers/
+https://www.can-cia.org/can-knowledge/hlp/higher-layer-protocols/
