@@ -16,3 +16,6 @@ CanTp_MainFunction(The main function will be called by the Schedule Manager or b
 =>CanIf_RxIndication => CanTp_RxIndication => s_Processs_FirstFrame => PduR_CanTpStartOfReception( CanTp  ask  PDU  Router  to  make  a  buffer available  for incoming  data  with  PduR_CanTpStartOfReception callback) => s_CreateFirstFC=> CanIf_Transmit(LSduIdFC, &FC)=> 2(Fllow Control Frame)
 
 receiver 3(Consecutive Frame) => s_Processs_ConsecutiveFrame(NSduId, PduInfoPtr) => PduR_CanTpCopyRxData( coppy data from buffer) => if 3 is not last consecutive of message or last block size => Do nothing
+
+ Can_MainFunction_Read(This function performs the polling of RX indications when  CAN_RX_PROCESSING is set to POLLING.)
+=>CanIf_RxIndication => CanTp_RxIndication => s_Processs_SingleFrame => PduR_CanTpStartOfReception( CanTp  ask  PDU  Router  to  make  a  buffer available  for incoming  data  with  PduR_CanTpStartOfReception callback)=> PduR_CanTpCopyRxData
